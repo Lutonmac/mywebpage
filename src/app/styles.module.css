@@ -1,0 +1,83 @@
+
+
+@media (min-width: 360px) {
+    .bgimg {
+    
+        background-image: url('../../public/gideonimage.png');
+        background-position: 5rem 4rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(201, 200, 200);
+        height: 100%;
+        
+    }
+    .navBar{
+        width: 100px;
+        height: 100%;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
+        color: blue ;
+        background-color: brown;
+    
+    
+    }
+    .navBar:hover {
+        width: 100px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .bgimg {
+    
+        background-image: url('../../public/gideonimage.png');
+        background-position: 5rem 4rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(201, 200, 200);
+        height: 144vw;
+        
+    }
+    .navBar{
+        width: 100px;
+        height: 100%;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
+        color: blue ;
+        background-color: brown;
+    
+    
+    }
+    .navBar:hover {
+        width: 100px;
+        height: 100%;
+    }
+   
+}
+
+@media (min-width: 1028px) {
+    .bgimg {
+    
+        background-image: url('../../public/gideonimage.png');
+        background-position: 50rem 4rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(201, 200, 200);
+        height: 58.8vw;
+    }
+    .navBar{
+        width: 100px;
+        height: 100%;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
+        color: blue ;
+        background-color: brown;
+    
+    
+    }
+    .navBar:hover {
+        width: 100px;
+        height: 100%;
+    }
+}
+
